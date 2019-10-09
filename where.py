@@ -8,7 +8,7 @@ df = pd.read_csv("city/output/list_of_countries.csv")
 
 
 def run_country_checker():
-    """Checks for a valid country by checking df"""
+     """Checks for a valid country by checking df"""
     while True:
         try:
             country = input(
